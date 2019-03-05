@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Nouvelle';
+    src: url('fonts/nouvelle_vague/nouvelle_vague_final.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu/Ubuntu-Light.ttf'); /* IE9 Compat Modes */
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.heroimage {
+    grid-area: image;
+    overflow: hidden;
+    flex: 1;
+}
+
+.heroimage img {
+    width: 100%;
+    position: relative;
+}
+
+.namepart {
+    grid-area: name;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: white;
+    z-index: 1;
+    height: 90%;
+    border-bottom-right-radius: 50px;
+    border-right: 7px solid #30ffbc;
+}
+
+.namepart h1 {
+    transform: rotate(270deg);
+    margin: 0;
+    padding: 0;
+    font-size: 85px;
+    position: relative;
+    /* text-transform: uppercase; */
+    font-family: 'Nouvelle';
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.details {
+    grid-area: text;
+    flex: 1;
+}
+
+.details nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+.details nav h4 {
+    font-family: 'Ubuntu';
+}
