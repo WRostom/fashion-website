@@ -3,10 +3,6 @@
     src: url('fonts/nouvelle_vague/nouvelle_vague_final.ttf'); /* IE9 Compat Modes */
 }
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('fonts/Ubuntu/Ubuntu-Light.ttf'); /* IE9 Compat Modes */
-}
-@font-face {
     font-family: 'Open Sans Bold';
     src: url('fonts/Open_Sans/OpenSans-ExtraBold.ttf'); /* IE9 Compat Modes */
 }

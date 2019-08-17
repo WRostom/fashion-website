@@ -7,6 +7,7 @@ let imagesrc = heroImage.src;
 let colorscheme = [];
 // let initialCircle = document.querySelector('.colorBright');
 Vibrant.from(imagesrc)
+    .quality(10)
     .getPalette()
     .then(palette => {
         console.log(palette);
